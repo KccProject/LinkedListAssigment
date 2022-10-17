@@ -67,7 +67,7 @@ SinglyLinkedListNode* insertNodeAtTail(SinglyLinkedListNode* head, int data) {
       head=head->next;
       head->next=node;
       node->next=NULL;
-      
+      cout<<head->data
   }
   
   return node;
